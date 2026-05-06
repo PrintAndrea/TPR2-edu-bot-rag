@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(
    PORT,
-   () => console.log(
-    'EduBot is running on port: http://localhost:${PORT}'
+   () => console.log(   
+   `EduBot is running on port: http://localhost:${PORT}/health` 
    )
 )
